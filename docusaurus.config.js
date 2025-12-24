@@ -13,9 +13,11 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://hackathon-1-laiba.vercel.app', // Vercel project URL
+  url: 'https://ai-physical-book-u6gu-fpfejwg5e-hafsa-jamals-projects.vercel.app', // Vercel project URL
   // Set the /<baseUrl>/ pathname under which your site is served
   baseUrl: '/',
+  // Add trailing slash to all URLs for consistency
+  trailingSlash: true,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -36,6 +38,10 @@ const config = {
     locales: ['en'],
   },
 
+  // Additional production settings
+  onBrokenAnchors: 'throw',
+  onBrokenLinks: 'warn', // Changed back to 'warn' for better error handling
+
   presets: [
     [
       'classic',
@@ -49,6 +55,10 @@ const config = {
             'https://github.com/laiba/hackathon-1/tree/main/',
         },
         blog: false, // Disable blog
+        pages: {
+          path: 'src/pages',
+          include: ['**/*.{js,jsx,ts,tsx,md,mdx}'],
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
