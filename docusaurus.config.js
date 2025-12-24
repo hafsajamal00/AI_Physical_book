@@ -13,9 +13,8 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-project-name.vercel.app', // Replace with your actual Vercel project URL
+  url: 'https://hackathon-1-laiba.vercel.app', // Vercel project URL
   // Set the /<baseUrl>/ pathname under which your site is served
-  // For Vercel deployment, use '/' or adjust as needed
   baseUrl: '/',
 
   // GitHub pages deployment config.
