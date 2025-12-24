@@ -97,29 +97,38 @@ const config = {
             items: [
               {
                 label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                href: 'https://stackoverflow.com/questions/tagged/ros2',
+                className: 'footer__icon-stackoverflow',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/ros2',
+                className: 'footer__icon-discord',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/ROStwo',
+                className: 'footer__icon-twitter',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'GitHub',
             items: [
               {
-                label: 'GitHub',
+                label: 'ROS2',
+                href: 'https://github.com/ros2/ros2',
+                className: 'footer__icon-github',
+              },
+              {
+                label: 'This Project',
                 href: 'https://github.com/laiba/hackathon-1',
+                className: 'footer__icon-github',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} ROS2 Educational Book. Built with Docusaurus.`,
+        copyright: `Copyright © 2025 Physical AI & Humanoid Robotics Learning Platform. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
