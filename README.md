@@ -1,8 +1,10 @@
-# ROS 2 Educational Book
+# Physical AI & Humanoid Robotics Learning Platform
 
 This repository contains an educational resource for learning ROS 2 and robotics through a series of modules. Each module builds upon the previous one, providing a comprehensive learning path for robotics enthusiasts and professionals.
 
 ## Modules
+
+The `frontend_book` directory contains 4 comprehensive modules:
 
 ### Module 1: The Robotic Nervous System (ROS 2)
 - Chapter 1: ROS 2 Fundamentals
@@ -72,4 +74,4 @@ We welcome contributions to this educational resource. Please follow these steps
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.# AI_Physical_book
+This project is licensed under the MIT License - see the LICENSE file for details.
