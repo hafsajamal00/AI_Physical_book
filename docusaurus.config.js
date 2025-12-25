@@ -13,7 +13,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://ai-physical-book-u6gu-fpfejwg5e-hafsa-jamals-projects.vercel.app', // Vercel project URL
+  url: 'https://your-username.github.io', // Placeholder - will be updated for deployment
   // Set the /<baseUrl>/ pathname under which your site is served
   baseUrl: '/',
   // Add trailing slash to all URLs for consistency
@@ -24,7 +24,7 @@ const config = {
   organizationName: 'laiba', // Usually your GitHub org/user name.
   projectName: 'hackathon-1', // Usually your repo name.
 
-  onBrokenLinks: 'ignore', // Changed from 'warn' to prevent build failures
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   markdown: {
     mermaid: true,
@@ -40,7 +40,6 @@ const config = {
 
   // Additional production settings
   onBrokenAnchors: 'throw',
-  onBrokenLinks: 'warn', // Changed back to 'warn' for better error handling
 
   presets: [
     [

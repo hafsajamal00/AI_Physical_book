@@ -31,5 +31,8 @@ This course is designed for students with Python and basic AI knowledge who want
 This course is organized into the following modules:
 
 1. **Module 1: The Robotic Nervous System (ROS 2)** - Covers the fundamentals of ROS 2, communication patterns, and robot structure control for humanoid robotics.
+2. **Module 2: The Digital Twin (Gazebo & Unity)** - Explores digital twin simulation environments that are crucial for developing and testing humanoid robots before deployment.
+3. **Module 3: The AI-Robot Brain (NVIDIA Isaac™)** - Introduces NVIDIA Isaac, a comprehensive robotics platform that provides the AI brain for intelligent robots.
+4. **Module 4: Vision-Language-Action (VLA)** - Explores Vision-Language-Action models that enable robots to understand and execute complex commands based on visual and linguistic inputs.
 
 Let's begin your journey into the world of ROS 2 and Physical AI!
